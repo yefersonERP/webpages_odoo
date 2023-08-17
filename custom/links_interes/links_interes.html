@@ -1,95 +1,128 @@
-<t t-name="website.inicio">
-    <t t-call="website.layout">
-        <div id="wrap" class="oe_structure oe_empty">
-            <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt96 o_colored_level pb88"
-                data-scroll-background-ratio="1" data-snippet="s_cover" data-name="Cover" style="">
-                <span class="s_parallax_bg oe_img_bg"
-                    style="background-image: url(&quot;/web/image/411711-2b624cf8/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg&quot;); background-position: 50% 0px;"
-                    data-original-id="411710"
-                    data-original-src="/web/image/411710-b3c0a15b/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg"
-                    data-mimetype="image/jpeg" data-resize-width="1920" data-quality="62" ></span>
-                <div class="o_we_bg_filter bg-black-50"></div>
-                <div class="s_allow_columns container">
-                    <h1 style="text-align: center;">
-                        <span class="title_cover">¡Bienvenido al Portal de Empleados!</span>
-                        <br />
-                    </h1>
-                    <p class="lead text_cover" style="text-align: center;">En este portal, encontrarás recursos útiles,
-                        anuncios importantes
-                        y actualizaciones relevantes para mantenernos conectados como equipo</p>
-                </div>
-            </section>
-            <section class="s_three_columns pt72 pb120 o_colored_level" data-vcss="001"
-                data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Bold/01&quot;,&quot;colors&quot;:{&quot;c2&quot;:&quot;o-color-3&quot;},&quot;flip&quot;:[&quot;x&quot;]}"
-                data-snippet="s_three_columns" data-name="Columns" style="">
-                <div class="o_we_shape o_web_editor_Bold_01"
-                    style="background-image: url(&quot;/web_editor/shape/web_editor/Bold/01.svg?c2=%23F6F4F2&amp;flip=x&quot;); background-position: 50% 0%;" ></div>
-                <div class="container">
-                    <h2 style="text-align: center;" class="mb-4">Accede a las siguientes funciones</h2>
-                    <div class="row d-flex gap_column align-items-stretch">
-                        <section class="card-deck o_colored_level" style="">
-                            <article class="card">
-                                <img class="img-fluid img-thumbnail" src="/web/image/411806-097e7151/5124556%5B1%5D.jpg"
-                                    alt="" loading="lazy" style="" data-original-title="" title=""
-                                    aria-describedby="tooltip928942" data-original-id="411805"
-                                    data-original-src="/web/image/411805-5e663944/5124556%5B1%5D.jpg"
-                                    data-mimetype="image/jpeg" data-resize-width="690" />
-                                <section class="card-body">
-                                    <h5 class="card-title">Solicitud de soporte</h5>
-                                    <p class="card-text">¿Enfrentas desafíos técnicos o requieres asistencia? No te
-                                        preocupes. Nuestro
-                                        avanzado sistema de
-                                        tickets de servicio está a tu disposición. Crea y administra solicitudes de
-                                        soporte técnico
-                                        relacionadas
-                                        con los equipos informáticos o el Sistema ERP Odoo.
-                                    </p>
-                                    <a class="btn btn-primary" href="/helpdesk/" target="_blank">
-                                        Solicitar asistencia
-                                    </a>
-                                </section>
-                            </article>
-                            <article class="card">
-                                <img class="img-fluid img-thumbnail" src="/web/image/411808-f259c9dd/6099966%5B1%5D.jpg"
-                                    alt="" loading="lazy" style="" data-original-title="" title=""
-                                    aria-describedby="tooltip28381" data-original-id="411804"
-                                    data-original-src="/web/image/411804-9c2b640f/6099966%5B1%5D.jpg"
-                                    data-mimetype="image/jpeg" data-resize-width="690" />
-                                <section class="card-body o_colored_level">
-                                    <h5 class="card-title">Registra tu asistencia</h5>
-                                    <p class="card-text">¡En este módulo, puedes registrar tu asistencia fácilmente!
-                                        Solo recuerda que
-                                        para
-                                        acceder, necesitas usar el usuario asignado en Odoo.
-                                    </p>
-                                    <a class="btn btn-primary align-self-end"
-                                        href="/web#action=1075&amp;cids=1&amp;menu_id=671" target="_blank"
-                                        data-original-title="" title="" aria-describedby="tooltip163126"> Registrar
-                                        asistencia </a>
-                                </section>
-                            </article>
-                            <article class="card">
-                                <img class="img-fluid img-thumbnail" src="/web/image/411807-0a363d77/6321602.jpg" alt=""
-                                    loading="lazy" style="" data-original-title="" title=""
-                                    aria-describedby="tooltip893557" data-original-id="411803"
-                                    data-original-src="/web/image/411803-9493a7f5/6321602.jpg"
-                                    data-mimetype="image/jpeg" data-resize-width="690" />
-                                <section class="card-body o_colored_level">
-                                    <h5 class="card-title">Restablecer contraseña</h5>
-                                    <p class="card-text">Necesitas acceder a tu cuenta de Odoo, y no recuerdas la
-                                        contraseña. Ingresa en
-                                        el siguiente link y solicita el restablecimiento de tu contraseña.
-                                        Necesitas tener acceso a tu correo corporativo.
-                                    </p>
-                                    <a class="btn btn-primary" href="/web/reset_password" target="_blank"
-                                        data-original-title="" title="" aria-describedby="tooltip44401"> Restablecer
-                                        contraseña </a>
-                                </section>
-                            </article>
-                        </section>
-                    </div>
-                </div>
-            </section>
+<!-- Esta vista pertenece al sitio web Links de interés para el sitio web de PannaFood -->
+
+<t t-name="website.links-de-interes">
+  <t t-call="website.layout">
+    <div id="wrap" class="oe_structure oe_empty">
+      <section class="container text-center o_colored_level" style="">
+        <div class="row">
+          <div class="col-sm o_colored_level">
+            <h1 class="text-dark">Enlaces de interés</h1>
+          </div>
         </div>
-    </t>
+        <div class="row">
+          <div class="container o_colored_level">
+            <div class="row d-flex gap_column">
+              <section class="card-group o_colored_level" style="">
+                <article class="card">
+                  <a href="/helpdesk/" target="_blank">
+                    <img
+                      class="o_we_custom_image img-fluid"
+                      src="/web/image/490698-ad6fe505/helpdesk.jpg"
+                      alt=""
+                      data-original-id="490698"
+                      data-original-src="/web/image/490698-ad6fe505/helpdesk.jpg"
+                      data-mimetype="image/jpeg"
+                      data-original-title=""
+                      title=""
+                      aria-describedby="tooltip327829"
+                      loading="lazy"
+                      style=""
+                    />
+                  </a>
+                  <section class="card-body o_colored_level">
+                    <h5 class="card-title">Solicitud de soporte</h5>
+                    <p class="card-text">
+                      Crea solicitudes de soporte relacionadas con equipos
+                      informáticos o el Sistema ERP Odoo
+                    </p>
+                    <a
+                      class="btn btn-info btn-lg"
+                      href="/helpdesk/"
+                      target="_blank"
+                      data-original-title=""
+                      title=""
+                      aria-describedby="tooltip447674"
+                    >
+                      Solicitar asistencia
+                    </a>
+                  </section>
+                </article>
+                <article class="card">
+                  <a
+                    href="/web#action=1075&amp;cids=1&amp;menu_id=671"
+                    target="_blank"
+                  >
+                    <img
+                      class="o_we_custom_image img-fluid"
+                      src="/web/image/490700-c143d7f3/attendance.jpg"
+                      alt=""
+                      loading="lazy"
+                      style=""
+                      data-original-id="490700"
+                      data-original-src="/web/image/490700-c143d7f3/attendance.jpg"
+                      data-mimetype="image/jpeg"
+                      data-original-title=""
+                      title=""
+                      aria-describedby="tooltip738012"
+                    />
+                  </a>
+                  <section class="card-body o_colored_level">
+                    <h5 class="card-title">Registra tu asistencia</h5>
+                    <p class="card-text">
+                      Registra tu asistencia fácilmente. Solo recuerda que para
+                      acceder, necesitas usar el usuario asignado en Odoo.
+                    </p>
+                    <a
+                      class="btn btn-info btn-lg"
+                      href="/web#action=1075&amp;cids=1&amp;menu_id=671"
+                      target="_blank"
+                      data-original-title=""
+                      title=""
+                      aria-describedby="tooltip163126"
+                    >
+                      Registrar asistencia
+                    </a>
+                  </section>
+                </article>
+                <article class="card">
+                  <a href="/web/reset_password">
+                    <img
+                      class="o_we_custom_image img-fluid"
+                      src="/web/image/490697-6d928fdd/reset_password.jpg"
+                      alt=""
+                      loading="lazy"
+                      style=""
+                      data-original-id="490697"
+                      data-original-src="/web/image/490697-6d928fdd/reset_password.jpg"
+                      data-mimetype="image/jpeg"
+                      data-original-title=""
+                      title=""
+                      aria-describedby="tooltip771852"
+                    />
+                  </a>
+                  <section class="card-body o_colored_level">
+                    <h5 class="card-title">Restablecer contraseña</h5>
+                    <p class="card-text">
+                      Restablece tu contraseña. Necesitas tener acceso a tu
+                      correo corporativo.
+                    </p>
+                    <a
+                      class="btn btn-info btn-lg"
+                      href="/web/reset_password"
+                      target="_blank"
+                      data-original-title=""
+                      title=""
+                      aria-describedby="tooltip44401"
+                    >
+                      Restablecer contraseña
+                    </a>
+                  </section>
+                </article>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </t>
 </t>
